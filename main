@@ -1,5 +1,3 @@
-Put one of the code in .htaccess file
-
 1. Redirect All Web Traffic
 If you have existing code in your .htaccess, add the following:
 
