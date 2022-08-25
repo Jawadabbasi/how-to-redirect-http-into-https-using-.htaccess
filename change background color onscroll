@@ -1,0 +1,23 @@
+jQuery(document).ready(function(){
+  jQuery(window).scroll(function(){
+  	var scroll = jQuery(window).scrollTop();
+	   if(scroll > 0) {
+		  jQuery("body").css("background" , "#a4d4ab");  	
+	  }
+
+	  if (scroll > 100) {
+	    jQuery("body").css("background" , "#809cce");
+	  }
+	  
+	  if(scroll > 500) {
+		  jQuery("body").css("background" , "#95b9d1");  	
+	  }
+	  
+	 if(scroll > 1000) {
+		  jQuery("body").css("background" , "#b7e0d2");  	
+	  }
+	if(scroll > 1500) {
+		  jQuery("body").css("background" , "#d5e9de");  	
+	  }
+  });
+});
