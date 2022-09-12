@@ -8,3 +8,13 @@ add_action('woocommerce_before_add_to_cart_form','woo_related_products_after_pri
 ?>
 
 Note: Make sure products price there on single product page if you can't enter price for any of the specific product then not show in that specific single product page
+
+If you want to disable the bottom related products section and just show related products sections after price section then please use that CSS code
+
+.related{ 
+   display: none;
+}
+
+.summary .related{
+   display: block;
+}
