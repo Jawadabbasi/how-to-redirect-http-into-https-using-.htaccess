@@ -1,4 +1,4 @@
-Please use that plugin https://wordpress.org/plugins/code-snippets/ & copy the code.php file code
+Please use that plugin https://wordpress.org/plugins/code-snippets/ for putting a PHP code & copy PHP code from code.php file
 
 <?php 
 function woo_related_products_after_price_section(){
